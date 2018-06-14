@@ -1,0 +1,36 @@
+{
+    "name": "@runner/generator-notify",
+    "version": "1.0.0",
+    "description": "Tasks generator for popup notification.",
+    "author": {
+        "name": "Stanislav Kalashnik",
+        "email": "darkpark.main@gmail.com"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/runner/generator-notify"
+    },
+    "publishConfig": {
+        "access": "public"
+    },
+    "scripts": {
+        "lint": "eslint .",
+        "test": "npm run lint"
+    },
+    "dependencies": {
+        "@runner/logger": "^1.0.0",
+        "node-notifier": "^5.2.1",
+        "strip-ansi": "^4.0.0"
+    },
+    "devDependencies": {
+        "@cjssdk/eslint-config": "^1.1.2",
+        "eslint": "^4.19.1"
+    },
+    "keywords": [
+        "task",
+        "runner",
+        "generator",
+        "notify"
+    ],
+    "license": "GPL-3.0"
+}
