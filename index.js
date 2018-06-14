@@ -28,7 +28,7 @@ function createLogger ( method, icon ) {
             icon: icon,
             message: stripAnsi(util.format.apply(util, arguments)).replace(/\t/g, '    ')
         });
-    }
+    };
 }
 
 
