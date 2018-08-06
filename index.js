@@ -8,7 +8,7 @@
 var util      = require('util'),
     notifier  = require('node-notifier'),
     stripAnsi = require('strip-ansi'),
-    logger    = require('@runner/logger'),
+    logger    = require('runner-logger'),
     name      = 'notify',
     log       = logger.wrap(name),
     loggers   = {

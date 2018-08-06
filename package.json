@@ -1,5 +1,5 @@
 {
-    "name": "@runner/generator-notify",
+    "name": "runner-generator-notify",
     "version": "1.0.0",
     "description": "Tasks generator for popup notification.",
     "author": {
@@ -10,16 +10,13 @@
         "type": "git",
         "url": "https://github.com/runner/generator-notify.git"
     },
-    "publishConfig": {
-        "access": "public"
-    },
     "scripts": {
         "lint": "eslint .",
         "test": "npm run lint"
     },
     "dependencies": {
-        "@runner/logger": "^1.0.0",
         "node-notifier": "^5.2.1",
+        "runner-logger": "^1.0.0",
         "strip-ansi": "^4.0.0"
     },
     "devDependencies": {
