@@ -54,7 +54,7 @@ function generator ( config, options ) {
         doneCallback;
 
     // sanitize and extend defaults
-    config = Object.assign({
+    generator.config = config = Object.assign({
         warn: false,
         fail: true
     }, config || {});
