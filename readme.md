@@ -21,13 +21,13 @@ npm install runner-generator-notify
 Add to the scope:
 
 ```js
-var generator = require('runner-generator-notify');
+const generator = require('runner-generator-notify');
 ```
 
 Generate tasks according to the given config:
 
 ```js
-var tasks = generator({
+const tasks = generator({
     warn: true,
     fail: true
 });
@@ -36,7 +36,7 @@ var tasks = generator({
 Add generated tasks to the `runner` instance:
 
 ```js
-var runner = require('runner');
+const runner = require('runner');
 
 Object.assign(runner.tasks, tasks);
 ```

@@ -5,7 +5,8 @@
 
 'use strict';
 
-var util      = require('util'),
+const
+    util      = require('util'),
     notifier  = require('node-notifier'),
     stripAnsi = require('strip-ansi'),
     logger    = require('runner-logger'),
@@ -50,8 +51,9 @@ function stop () {
 
 
 function generator ( config, options ) {
-    var tasks = {},
-        doneCallback;
+    const tasks = {};
+
+    let doneCallback;
 
     // sanitize and extend defaults
     generator.config = config = Object.assign({
