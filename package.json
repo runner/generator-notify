@@ -16,7 +16,7 @@
     },
     "dependencies": {
         "node-notifier": "^5.4.0",
-        "runner-logger": "^1.0.1",
+        "runner-logger": "^2.0.0",
         "strip-ansi": "^5.2.0"
     },
     "devDependencies": {
